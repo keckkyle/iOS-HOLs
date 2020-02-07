@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5tP-vB-Nnb">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="7oa-rp-HhC">
+            <objects>
+                <viewController storyboardIdentifier="page1" id="xnV-Ct-BYk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XCT-Wl-Kvj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="156" translatesAutoresizingMaskIntoConstraints="NO" id="9ju-2b-93a">
+                                <rect key="frame" x="20" y="64" width="374" height="778"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KyleKeck" translatesAutoresizingMaskIntoConstraints="NO" id="9Zn-vT-cy5">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="326.5"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="o5h-aN-qHY">
+                                        <rect key="frame" x="0.0" y="482.5" width="374" height="295.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kyle Keck" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9U9-9y-d7r">
+                                                <rect key="frame" x="150" y="0.0" width="74" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BS Park, Recreation, and Tourism Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2z-8U-x8D">
+                                                <rect key="frame" x="18" y="53" width="338" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="keckkyle@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zl5-R0-bzK">
+                                                <rect key="frame" x="107" y="106" width="160.5" height="30.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile: +1 (517) 918 4081" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eui-tN-3VN">
+                                                <rect key="frame" x="88" y="159.5" width="198.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tampa, Florida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k04-us-o9x">
+                                                <rect key="frame" x="131" y="212.5" width="112" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traveling, Reading, Swimming" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42Q-2x-hvP">
+                                                <rect key="frame" x="73" y="265.5" width="228.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aHB-yC-1al" firstAttribute="trailing" secondItem="9ju-2b-93a" secondAttribute="trailing" constant="20" id="4lY-KQ-Tu7"/>
+                            <constraint firstItem="9ju-2b-93a" firstAttribute="leading" secondItem="aHB-yC-1al" secondAttribute="leading" constant="20" id="65P-Dp-Mhu"/>
+                            <constraint firstItem="aHB-yC-1al" firstAttribute="bottom" secondItem="9ju-2b-93a" secondAttribute="bottom" constant="20" id="7ka-qm-RBu"/>
+                            <constraint firstItem="9ju-2b-93a" firstAttribute="top" secondItem="aHB-yC-1al" secondAttribute="top" constant="20" id="BFE-f0-Gsb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aHB-yC-1al"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N6k-cD-ggy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-591.304347826087" y="602.67857142857144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ulR-gF-rxI">
+            <objects>
+                <viewController storyboardIdentifier="page4" id="zRJ-fq-YSr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xy1-eE-VIf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="156" translatesAutoresizingMaskIntoConstraints="NO" id="XKJ-U5-9gc">
+                                <rect key="frame" x="20" y="64" width="374" height="778"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JeremyMalisse" translatesAutoresizingMaskIntoConstraints="NO" id="F9B-gQ-Nw3">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="288.00000000000006"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="ZaL-Zz-hbD">
+                                        <rect key="frame" x="0.0" y="444" width="374" height="334"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jeremy Malisse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xOh-Hr-gWl">
+                                                <rect key="frame" x="128" y="0.0" width="118" height="31.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BSc Games Development (2:1 Hons)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ad-9E-54O">
+                                                <rect key="frame" x="48.5" y="60.5" width="277.5" height="31.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jmalisse1@yahoo.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnE-Z9-b1b">
+                                                <rect key="frame" x="103.5" y="121" width="167.5" height="31.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile: +1 (407) 576-7192" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUz-Dh-Y0i">
+                                                <rect key="frame" x="85" y="181.5" width="204" height="31.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tampa, Florida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4GO-1x-2O9">
+                                                <rect key="frame" x="131" y="242" width="112" height="31.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video games, board games, music, cats, game design" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z64-CX-Tcz">
+                                                <rect key="frame" x="30" y="302.5" width="314" height="31.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="XKJ-U5-9gc" firstAttribute="top" secondItem="dEc-WU-ddC" secondAttribute="top" constant="20" id="MrI-r4-a5o"/>
+                            <constraint firstItem="dEc-WU-ddC" firstAttribute="bottom" secondItem="XKJ-U5-9gc" secondAttribute="bottom" constant="20" id="l9y-mG-cpc"/>
+                            <constraint firstAttribute="trailing" secondItem="XKJ-U5-9gc" secondAttribute="trailing" constant="20" id="ls8-tb-tbu"/>
+                            <constraint firstItem="XKJ-U5-9gc" firstAttribute="leading" secondItem="dEc-WU-ddC" secondAttribute="leading" constant="20" id="u3c-ol-5nX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dEc-WU-ddC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kmA-9I-Kbs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1669.5652173913045" y="602.67857142857144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HpL-fo-JZl">
+            <objects>
+                <viewController storyboardIdentifier="page5" id="h8h-Cd-AaY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jit-Hb-1Sx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="156" translatesAutoresizingMaskIntoConstraints="NO" id="Aog-mW-Ddg">
+                                <rect key="frame" x="20" y="64" width="374" height="778"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MarkHawkings" translatesAutoresizingMaskIntoConstraints="NO" id="vnV-Sy-sRt">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="326.5"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="du1-q1-Qwj">
+                                        <rect key="frame" x="0.0" y="482.5" width="374" height="295.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mark Hawkins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fd2-38-qU8">
+                                                <rect key="frame" x="133.5" y="0.0" width="107.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BA Game Design and Development" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NSK-Wd-q7C">
+                                                <rect key="frame" x="53" y="53" width="268" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mark@throwaway.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eF-GA-tlY">
+                                                <rect key="frame" x="101" y="106" width="172" height="30.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile: (123) 456 -7890" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="irX-Ub-Z7L">
+                                                <rect key="frame" x="93" y="159.5" width="188" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tampa, Florida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lo6-N2-LBy">
+                                                <rect key="frame" x="131" y="212.5" width="112" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Things" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMA-fZ-bWZ">
+                                                <rect key="frame" x="161" y="265.5" width="52" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Aog-mW-Ddg" firstAttribute="leading" secondItem="82N-qt-JZl" secondAttribute="leading" constant="20" id="ACZ-v3-VT9"/>
+                            <constraint firstItem="82N-qt-JZl" firstAttribute="trailing" secondItem="Aog-mW-Ddg" secondAttribute="trailing" constant="20" id="Cpj-2Z-dvX"/>
+                            <constraint firstItem="Aog-mW-Ddg" firstAttribute="top" secondItem="82N-qt-JZl" secondAttribute="top" constant="20" id="OFm-30-FCQ"/>
+                            <constraint firstItem="82N-qt-JZl" firstAttribute="bottom" secondItem="Aog-mW-Ddg" secondAttribute="bottom" constant="20" id="eYg-XW-XRL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="82N-qt-JZl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UMO-oz-wND" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-591" y="1270"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="y6u-W5-vyD">
+            <objects>
+                <viewController storyboardIdentifier="page6" id="yrX-Uv-GZ9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kf1-O2-4Se">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="156" translatesAutoresizingMaskIntoConstraints="NO" id="XlZ-Nl-PkW">
+                                <rect key="frame" x="20" y="64" width="374" height="778"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WesOtero" translatesAutoresizingMaskIntoConstraints="NO" id="LYZ-OU-tkq">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="439.5"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="k7T-Cm-2HM">
+                                        <rect key="frame" x="0.0" y="595.5" width="374" height="182.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wes Otero" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rbv-Vd-AW0">
+                                                <rect key="frame" x="146.5" y="0.0" width="81" height="11.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Programmer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KEj-z7-5Pq">
+                                                <rect key="frame" x="139.5" y="34.5" width="95.5" height="11"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="wes@throwaway.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOj-M3-cYB">
+                                                <rect key="frame" x="105" y="68.5" width="164" height="11.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile: (407) 444-9999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bl8-xI-82o">
+                                                <rect key="frame" x="93" y="103" width="188" height="11"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Orlando, FL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ws-GP-Ird">
+                                                <rect key="frame" x="143" y="137" width="88.5" height="11.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photography" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1Q-o4-Wsi">
+                                                <rect key="frame" x="138" y="171.5" width="98.5" height="11"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="b8e-Mn-BlP" firstAttribute="trailing" secondItem="XlZ-Nl-PkW" secondAttribute="trailing" constant="20" id="26B-yF-Woe"/>
+                            <constraint firstItem="XlZ-Nl-PkW" firstAttribute="top" secondItem="b8e-Mn-BlP" secondAttribute="top" constant="20" id="TQd-xw-9rG"/>
+                            <constraint firstItem="XlZ-Nl-PkW" firstAttribute="leading" secondItem="b8e-Mn-BlP" secondAttribute="leading" constant="20" id="cN5-py-uiO"/>
+                            <constraint firstItem="b8e-Mn-BlP" firstAttribute="bottom" secondItem="XlZ-Nl-PkW" secondAttribute="bottom" constant="20" id="cP4-AA-uXw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="b8e-Mn-BlP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VGH-z7-1EB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="142" y="1270"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1nR-BR-vQM">
+            <objects>
+                <viewController storyboardIdentifier="page7" id="TYW-IF-ice" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JrM-X3-fNM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="156" translatesAutoresizingMaskIntoConstraints="NO" id="zFa-gd-qje">
+                                <rect key="frame" x="20" y="64" width="374" height="778"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DaneWisdom" translatesAutoresizingMaskIntoConstraints="NO" id="eay-te-d23">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="326.5"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="1N7-fJ-fDs">
+                                        <rect key="frame" x="0.0" y="482.5" width="374" height="295.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dane Wiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIz-7u-61H">
+                                                <rect key="frame" x="150.5" y="0.0" width="73" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IT Solution Architect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGZ-dN-doE">
+                                                <rect key="frame" x="109.5" y="53" width="155.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="danewisdom@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMe-bb-tWk">
+                                                <rect key="frame" x="91.5" y="106" width="191" height="30.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile: 9548567897" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRB-nX-GFg">
+                                                <rect key="frame" x="106.5" y="159.5" width="161.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fort Lauderdale, Florida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t7d-fz-Uv1">
+                                                <rect key="frame" x="96" y="212.5" width="182" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reading, Movies, Music, Gaming" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVN-o8-WLC">
+                                                <rect key="frame" x="63" y="265.5" width="248" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="zFa-gd-qje" firstAttribute="top" secondItem="E8e-8b-erk" secondAttribute="top" constant="20" id="8kD-QW-PjQ"/>
+                            <constraint firstItem="E8e-8b-erk" firstAttribute="bottom" secondItem="zFa-gd-qje" secondAttribute="bottom" constant="20" id="AWx-cY-d8j"/>
+                            <constraint firstItem="E8e-8b-erk" firstAttribute="trailing" secondItem="zFa-gd-qje" secondAttribute="trailing" constant="20" id="Ypp-EH-0U1"/>
+                            <constraint firstItem="zFa-gd-qje" firstAttribute="leading" secondItem="E8e-8b-erk" secondAttribute="leading" constant="20" id="dIY-Rs-jJk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="E8e-8b-erk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nZk-uZ-gGm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="919" y="1270"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VYi-uI-0Fh">
+            <objects>
+                <viewController storyboardIdentifier="page2" id="MrH-dd-Wm0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xnp-SN-HHi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="156" translatesAutoresizingMaskIntoConstraints="NO" id="Rej-Xl-FHi">
+                                <rect key="frame" x="20" y="64" width="374" height="778"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NathanCoggins" translatesAutoresizingMaskIntoConstraints="NO" id="IZJ-5K-j4H">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="326.5"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="rv0-0h-6LQ">
+                                        <rect key="frame" x="0.0" y="482.5" width="374" height="295.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nathan Coggins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9k-GI-PvS">
+                                                <rect key="frame" x="125.5" y="0.0" width="123" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BS Computer Science" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jW-tu-S5X">
+                                                <rect key="frame" x="103.5" y="53" width="167.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nthndcoggins@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fwq-q2-mG9">
+                                                <rect key="frame" x="87.5" y="106" width="199" height="30.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile: 1 828-458-3720" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uN9-H4-gop">
+                                                <rect key="frame" x="92.5" y="159.5" width="189.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tampa, Florida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8HQ-EP-1Mr">
+                                                <rect key="frame" x="131" y="212.5" width="112" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reading and Playing Video Games." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vR6-vp-1Lc">
+                                                <rect key="frame" x="54.5" y="265.5" width="265.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="NgJ-MA-FLF" firstAttribute="trailing" secondItem="Rej-Xl-FHi" secondAttribute="trailing" constant="20" id="ADJ-Jv-LK6"/>
+                            <constraint firstItem="NgJ-MA-FLF" firstAttribute="bottom" secondItem="Rej-Xl-FHi" secondAttribute="bottom" constant="20" id="CLB-I7-PA5"/>
+                            <constraint firstItem="Rej-Xl-FHi" firstAttribute="leading" secondItem="NgJ-MA-FLF" secondAttribute="leading" constant="20" id="ggG-ve-2DK"/>
+                            <constraint firstItem="Rej-Xl-FHi" firstAttribute="top" secondItem="NgJ-MA-FLF" secondAttribute="top" constant="20" id="w0v-MK-hnl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NgJ-MA-FLF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EiD-S8-zM6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="602.67857142857144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="R8K-6w-UWv">
+            <objects>
+                <viewController storyboardIdentifier="page3" id="9OG-uz-Sc4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8kV-pF-k3j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="156" translatesAutoresizingMaskIntoConstraints="NO" id="0Ex-Sf-2pL">
+                                <rect key="frame" x="20" y="64" width="374" height="778"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KJayShieu" translatesAutoresizingMaskIntoConstraints="NO" id="6L5-xb-Shw">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="326.5"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="elb-uF-YJV">
+                                        <rect key="frame" x="0.0" y="482.5" width="374" height="295.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kjay Shieu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84U-Dq-skS">
+                                                <rect key="frame" x="147.5" y="0.0" width="79.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BS Electrical Engineering" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y35-Pk-fO1">
+                                                <rect key="frame" x="91.5" y="53" width="191" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8T-87-Bt0">
+                                                <rect key="frame" x="116" y="106" width="142" height="30.5"/>
+                                                <string key="text">kxs646@case.edu
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile: 1-330-221-8854" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YkG-oa-S7R">
+                                                <rect key="frame" x="92" y="159.5" width="190.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tampa, Florida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2b-oN-sA7">
+                                                <rect key="frame" x="131" y="212.5" width="112" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Playing video games" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7o-XH-fOv">
+                                                <rect key="frame" x="108.5" y="265.5" width="157" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0Ex-Sf-2pL" firstAttribute="leading" secondItem="g6h-7N-Rqb" secondAttribute="leading" constant="20" id="9zd-4k-gWZ"/>
+                            <constraint firstItem="g6h-7N-Rqb" firstAttribute="bottom" secondItem="0Ex-Sf-2pL" secondAttribute="bottom" constant="20" id="WgC-fP-N91"/>
+                            <constraint firstItem="0Ex-Sf-2pL" firstAttribute="top" secondItem="g6h-7N-Rqb" secondAttribute="top" constant="20" id="qt8-j7-Tcs"/>
+                            <constraint firstItem="g6h-7N-Rqb" firstAttribute="trailing" secondItem="0Ex-Sf-2pL" secondAttribute="trailing" constant="20" id="xis-3i-JMf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="g6h-7N-Rqb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rqm-Ar-jhJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="920" y="603"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="nj7-le-mdB">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="5tP-vB-Nnb" customClass="PageViewController" customModule="HOL8_iRevature" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="FZk-Pg-4Mi"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Oe-N1-zvP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="471" y="-141"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DaneWisdom" width="285" height="285"/>
+        <image name="JeremyMalisse" width="190" height="249"/>
+        <image name="KJayShieu" width="285" height="285"/>
+        <image name="KyleKeck" width="285" height="285"/>
+        <image name="MarkHawkings" width="285" height="285"/>
+        <image name="NathanCoggins" width="285" height="285"/>
+        <image name="WesOtero" width="472" height="512"/>
+    </resources>
+</document>
