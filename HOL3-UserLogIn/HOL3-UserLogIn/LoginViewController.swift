@@ -10,8 +10,19 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    @IBAction func submitLogIn(_ sender: Any) {
+        if isEmail(emailTextField) {
+            showAlert("Invalid Email", "Please provide a valid email", self)
+        } else if passwordTextField.text! == "" {
+            showAlert("Invalid Password", "A password must be provided", self)
+        }
     }
     
 }

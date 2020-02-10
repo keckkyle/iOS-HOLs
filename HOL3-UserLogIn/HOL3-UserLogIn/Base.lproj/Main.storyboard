@@ -99,6 +99,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="signUp:" destination="FJK-wF-i8Z" eventType="touchDown" id="kRf-VC-6pU"/>
                                     <segue destination="xdh-L2-ckY" kind="show" id="ZsY-2g-A3E"/>
                                 </connections>
                             </button>
@@ -176,6 +177,11 @@
                         <viewLayoutGuide key="safeArea" id="aqz-2t-EXN"/>
                     </view>
                     <navigationItem key="navigationItem" id="DSe-Pp-Rcd"/>
+                    <connections>
+                        <outlet property="confirmPassword" destination="UnC-IU-2WR" id="D8h-kU-c0R"/>
+                        <outlet property="emailTextField" destination="wcs-65-3gA" id="AG4-F1-q1D"/>
+                        <outlet property="passwordTextField" destination="b2g-Ag-WZb" id="2kC-Z7-7Zz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="glA-Hg-GUB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -248,6 +254,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="submitLogIn:" destination="QRX-OE-buD" eventType="touchDown" id="ZcS-Rj-GSu"/>
                                     <segue destination="xdh-L2-ckY" kind="show" id="5Ew-Yw-NR8"/>
                                 </connections>
                             </button>
@@ -263,6 +270,10 @@
                         <viewLayoutGuide key="safeArea" id="nbm-NV-Pfy"/>
                     </view>
                     <navigationItem key="navigationItem" id="Dm2-Ze-HAH"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="0P9-5z-Z6p" id="dTb-ph-cRv"/>
+                        <outlet property="passwordTextField" destination="aEe-4a-aG9" id="cPK-is-uNN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pzv-mw-Yw5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -320,6 +331,6 @@
         <image name="logo" width="180" height="56"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5Ew-Yw-NR8"/>
+        <segue reference="ZsY-2g-A3E"/>
     </inferredMetricsTieBreakers>
 </document>
