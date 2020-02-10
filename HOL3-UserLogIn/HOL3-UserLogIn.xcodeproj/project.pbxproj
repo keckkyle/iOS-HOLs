@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F7E991E23ECEE0200D025C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E991D23ECEE0200D025C9 /* AppDelegate.swift */; };
-		5F7E992023ECEE0200D025C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E991F23ECEE0200D025C9 /* SceneDelegate.swift */; };
-		5F7E992223ECEE0200D025C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E992123ECEE0200D025C9 /* ViewController.swift */; };
-		5F7E992523ECEE0200D025C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7E992323ECEE0200D025C9 /* Main.storyboard */; };
-		5F7E992723ECEE0300D025C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F7E992623ECEE0300D025C9 /* Assets.xcassets */; };
-		5F7E992A23ECEE0300D025C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7E992823ECEE0300D025C9 /* LaunchScreen.storyboard */; };
+		5F16365F23F0752A0028EF2E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F16365E23F0752A0028EF2E /* LoginViewController.swift */; };
+		5F16366123F075D90028EF2E /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F16366023F075D90028EF2E /* SignupViewController.swift */; };
+		5F16366323F078C70028EF2E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F16366223F078C70028EF2E /* HomeViewController.swift */; };
+		5F7E993E23ED09E400D025C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E993D23ED09E400D025C9 /* AppDelegate.swift */; };
+		5F7E994023ED09E400D025C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E993F23ED09E400D025C9 /* SceneDelegate.swift */; };
+		5F7E994223ED09E400D025C9 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E994123ED09E400D025C9 /* StartViewController.swift */; };
+		5F7E994523ED09E400D025C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7E994323ED09E400D025C9 /* Main.storyboard */; };
+		5F7E994723ED09E600D025C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F7E994623ED09E600D025C9 /* Assets.xcassets */; };
+		5F7E994A23ED09E600D025C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7E994823ED09E600D025C9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5F7E991A23ECEE0200D025C9 /* HOL6-UserDefaults.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HOL6-UserDefaults.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F7E991D23ECEE0200D025C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F7E991F23ECEE0200D025C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F7E992123ECEE0200D025C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5F7E992423ECEE0200D025C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5F7E992623ECEE0300D025C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5F7E992923ECEE0300D025C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5F7E992B23ECEE0300D025C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F16365E23F0752A0028EF2E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5F16366023F075D90028EF2E /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		5F16366223F078C70028EF2E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5F7E993A23ED09E400D025C9 /* HOL3-UserLogIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HOL3-UserLogIn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7E993D23ED09E400D025C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F7E993F23ED09E400D025C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F7E994123ED09E400D025C9 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		5F7E994423ED09E400D025C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F7E994623ED09E600D025C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F7E994923ED09E600D025C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F7E994B23ED09E600D025C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5F7E991723ECEE0200D025C9 /* Frameworks */ = {
+		5F7E993723ED09E400D025C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +43,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5F7E991123ECEE0200D025C9 = {
+		5F7E993123ED09E400D025C9 = {
 			isa = PBXGroup;
 			children = (
-				5F7E991C23ECEE0200D025C9 /* HOL6-USerDefaults */,
-				5F7E991B23ECEE0200D025C9 /* Products */,
+				5F7E993C23ED09E400D025C9 /* HOL3-UserLogIn */,
+				5F7E993B23ED09E400D025C9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5F7E991B23ECEE0200D025C9 /* Products */ = {
+		5F7E993B23ED09E400D025C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F7E991A23ECEE0200D025C9 /* HOL6-UserDefaults.app */,
+				5F7E993A23ED09E400D025C9 /* HOL3-UserLogIn.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5F7E991C23ECEE0200D025C9 /* HOL6-USerDefaults */ = {
+		5F7E993C23ED09E400D025C9 /* HOL3-UserLogIn */ = {
 			isa = PBXGroup;
 			children = (
-				5F7E991D23ECEE0200D025C9 /* AppDelegate.swift */,
-				5F7E991F23ECEE0200D025C9 /* SceneDelegate.swift */,
-				5F7E992123ECEE0200D025C9 /* ViewController.swift */,
-				5F7E992323ECEE0200D025C9 /* Main.storyboard */,
-				5F7E992623ECEE0300D025C9 /* Assets.xcassets */,
-				5F7E992823ECEE0300D025C9 /* LaunchScreen.storyboard */,
-				5F7E992B23ECEE0300D025C9 /* Info.plist */,
+				5F7E993D23ED09E400D025C9 /* AppDelegate.swift */,
+				5F7E993F23ED09E400D025C9 /* SceneDelegate.swift */,
+				5F7E994123ED09E400D025C9 /* StartViewController.swift */,
+				5F16365E23F0752A0028EF2E /* LoginViewController.swift */,
+				5F16366023F075D90028EF2E /* SignupViewController.swift */,
+				5F16366223F078C70028EF2E /* HomeViewController.swift */,
+				5F7E994323ED09E400D025C9 /* Main.storyboard */,
+				5F7E994623ED09E600D025C9 /* Assets.xcassets */,
+				5F7E994823ED09E600D025C9 /* LaunchScreen.storyboard */,
+				5F7E994B23ED09E600D025C9 /* Info.plist */,
 			);
-			path = "HOL6-USerDefaults";
+			path = "HOL3-UserLogIn";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F7E991923ECEE0200D025C9 /* HOL6-USerDefaults */ = {
+		5F7E993923ED09E400D025C9 /* HOL3-UserLogIn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F7E992E23ECEE0300D025C9 /* Build configuration list for PBXNativeTarget "HOL6-USerDefaults" */;
+			buildConfigurationList = 5F7E994E23ED09E600D025C9 /* Build configuration list for PBXNativeTarget "HOL3-UserLogIn" */;
 			buildPhases = (
-				5F7E991623ECEE0200D025C9 /* Sources */,
-				5F7E991723ECEE0200D025C9 /* Frameworks */,
-				5F7E991823ECEE0200D025C9 /* Resources */,
+				5F7E993623ED09E400D025C9 /* Sources */,
+				5F7E993723ED09E400D025C9 /* Frameworks */,
+				5F7E993823ED09E400D025C9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "HOL6-USerDefaults";
-			productName = "HOL6-USerDefaults";
-			productReference = 5F7E991A23ECEE0200D025C9 /* HOL6-UserDefaults.app */;
+			name = "HOL3-UserLogIn";
+			productName = "HOL3-UserLogIn";
+			productReference = 5F7E993A23ED09E400D025C9 /* HOL3-UserLogIn.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5F7E991223ECEE0200D025C9 /* Project object */ = {
+		5F7E993223ED09E400D025C9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = revature;
 				TargetAttributes = {
-					5F7E991923ECEE0200D025C9 = {
+					5F7E993923ED09E400D025C9 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 5F7E991523ECEE0200D025C9 /* Build configuration list for PBXProject "HOL6-USerDefaults" */;
+			buildConfigurationList = 5F7E993523ED09E400D025C9 /* Build configuration list for PBXProject "HOL3-UserLogIn" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +119,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 5F7E991123ECEE0200D025C9;
-			productRefGroup = 5F7E991B23ECEE0200D025C9 /* Products */;
+			mainGroup = 5F7E993123ED09E400D025C9;
+			productRefGroup = 5F7E993B23ED09E400D025C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F7E991923ECEE0200D025C9 /* HOL6-USerDefaults */,
+				5F7E993923ED09E400D025C9 /* HOL3-UserLogIn */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5F7E991823ECEE0200D025C9 /* Resources */ = {
+		5F7E993823ED09E400D025C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F7E992A23ECEE0300D025C9 /* LaunchScreen.storyboard in Resources */,
-				5F7E992723ECEE0300D025C9 /* Assets.xcassets in Resources */,
-				5F7E992523ECEE0200D025C9 /* Main.storyboard in Resources */,
+				5F7E994A23ED09E600D025C9 /* LaunchScreen.storyboard in Resources */,
+				5F7E994723ED09E600D025C9 /* Assets.xcassets in Resources */,
+				5F7E994523ED09E400D025C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5F7E991623ECEE0200D025C9 /* Sources */ = {
+		5F7E993623ED09E400D025C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F7E992223ECEE0200D025C9 /* ViewController.swift in Sources */,
-				5F7E991E23ECEE0200D025C9 /* AppDelegate.swift in Sources */,
-				5F7E992023ECEE0200D025C9 /* SceneDelegate.swift in Sources */,
+				5F16365F23F0752A0028EF2E /* LoginViewController.swift in Sources */,
+				5F7E994223ED09E400D025C9 /* StartViewController.swift in Sources */,
+				5F16366123F075D90028EF2E /* SignupViewController.swift in Sources */,
+				5F7E993E23ED09E400D025C9 /* AppDelegate.swift in Sources */,
+				5F7E994023ED09E400D025C9 /* SceneDelegate.swift in Sources */,
+				5F16366323F078C70028EF2E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5F7E992323ECEE0200D025C9 /* Main.storyboard */ = {
+		5F7E994323ED09E400D025C9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5F7E992423ECEE0200D025C9 /* Base */,
+				5F7E994423ED09E400D025C9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5F7E992823ECEE0300D025C9 /* LaunchScreen.storyboard */ = {
+		5F7E994823ED09E600D025C9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5F7E992923ECEE0300D025C9 /* Base */,
+				5F7E994923ED09E600D025C9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +178,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5F7E992C23ECEE0300D025C9 /* Debug */ = {
+		5F7E994C23ED09E600D025C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		5F7E992D23ECEE0300D025C9 /* Release */ = {
+		5F7E994D23ED09E600D025C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,36 +292,38 @@
 			};
 			name = Release;
 		};
-		5F7E992F23ECEE0300D025C9 /* Debug */ = {
+		5F7E994F23ED09E600D025C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HOL6-USerDefaults/Info.plist";
+				INFOPLIST_FILE = "HOL3-UserLogIn/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.revature.HOL6-USerDefaults";
-				PRODUCT_NAME = "HOL6-UserDefaults";
-				SWIFT_VERSION = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.revature.HOL3-UserLogIn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5F7E993023ECEE0300D025C9 /* Release */ = {
+		5F7E995023ED09E600D025C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HOL6-USerDefaults/Info.plist";
+				INFOPLIST_FILE = "HOL3-UserLogIn/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.revature.HOL6-USerDefaults";
-				PRODUCT_NAME = "HOL6-UserDefaults";
-				SWIFT_VERSION = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.revature.HOL3-UserLogIn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -317,25 +331,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F7E991523ECEE0200D025C9 /* Build configuration list for PBXProject "HOL6-USerDefaults" */ = {
+		5F7E993523ED09E400D025C9 /* Build configuration list for PBXProject "HOL3-UserLogIn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F7E992C23ECEE0300D025C9 /* Debug */,
-				5F7E992D23ECEE0300D025C9 /* Release */,
+				5F7E994C23ED09E600D025C9 /* Debug */,
+				5F7E994D23ED09E600D025C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F7E992E23ECEE0300D025C9 /* Build configuration list for PBXNativeTarget "HOL6-USerDefaults" */ = {
+		5F7E994E23ED09E600D025C9 /* Build configuration list for PBXNativeTarget "HOL3-UserLogIn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F7E992F23ECEE0300D025C9 /* Debug */,
-				5F7E993023ECEE0300D025C9 /* Release */,
+				5F7E994F23ED09E600D025C9 /* Debug */,
+				5F7E995023ED09E600D025C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5F7E991223ECEE0200D025C9 /* Project object */;
+	rootObject = 5F7E993223ED09E400D025C9 /* Project object */;
 }

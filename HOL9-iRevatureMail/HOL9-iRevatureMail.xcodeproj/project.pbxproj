@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F7E991E23ECEE0200D025C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E991D23ECEE0200D025C9 /* AppDelegate.swift */; };
-		5F7E992023ECEE0200D025C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E991F23ECEE0200D025C9 /* SceneDelegate.swift */; };
-		5F7E992223ECEE0200D025C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E992123ECEE0200D025C9 /* ViewController.swift */; };
-		5F7E992523ECEE0200D025C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7E992323ECEE0200D025C9 /* Main.storyboard */; };
-		5F7E992723ECEE0300D025C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F7E992623ECEE0300D025C9 /* Assets.xcassets */; };
-		5F7E992A23ECEE0300D025C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7E992823ECEE0300D025C9 /* LaunchScreen.storyboard */; };
+		5F0C63AC23EDC4DC008AE432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0C63AB23EDC4DC008AE432 /* AppDelegate.swift */; };
+		5F0C63AE23EDC4DC008AE432 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0C63AD23EDC4DC008AE432 /* SceneDelegate.swift */; };
+		5F0C63B023EDC4DC008AE432 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0C63AF23EDC4DC008AE432 /* ViewController.swift */; };
+		5F0C63B323EDC4DC008AE432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0C63B123EDC4DC008AE432 /* Main.storyboard */; };
+		5F0C63B523EDC4DD008AE432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0C63B423EDC4DD008AE432 /* Assets.xcassets */; };
+		5F0C63B823EDC4DD008AE432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0C63B623EDC4DD008AE432 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5F7E991A23ECEE0200D025C9 /* HOL6-UserDefaults.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HOL6-UserDefaults.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F7E991D23ECEE0200D025C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F7E991F23ECEE0200D025C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F7E992123ECEE0200D025C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5F7E992423ECEE0200D025C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5F7E992623ECEE0300D025C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5F7E992923ECEE0300D025C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5F7E992B23ECEE0300D025C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F0C63A823EDC4DC008AE432 /* HOL9-iRevatureMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HOL9-iRevatureMail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0C63AB23EDC4DC008AE432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F0C63AD23EDC4DC008AE432 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F0C63AF23EDC4DC008AE432 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F0C63B223EDC4DC008AE432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F0C63B423EDC4DD008AE432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F0C63B723EDC4DD008AE432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F0C63B923EDC4DD008AE432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5F7E991723ECEE0200D025C9 /* Frameworks */ = {
+		5F0C63A523EDC4DC008AE432 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5F7E991123ECEE0200D025C9 = {
+		5F0C639F23EDC4DC008AE432 = {
 			isa = PBXGroup;
 			children = (
-				5F7E991C23ECEE0200D025C9 /* HOL6-USerDefaults */,
-				5F7E991B23ECEE0200D025C9 /* Products */,
+				5F0C63AA23EDC4DC008AE432 /* HOL9-iRevatureMail */,
+				5F0C63A923EDC4DC008AE432 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5F7E991B23ECEE0200D025C9 /* Products */ = {
+		5F0C63A923EDC4DC008AE432 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F7E991A23ECEE0200D025C9 /* HOL6-UserDefaults.app */,
+				5F0C63A823EDC4DC008AE432 /* HOL9-iRevatureMail.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5F7E991C23ECEE0200D025C9 /* HOL6-USerDefaults */ = {
+		5F0C63AA23EDC4DC008AE432 /* HOL9-iRevatureMail */ = {
 			isa = PBXGroup;
 			children = (
-				5F7E991D23ECEE0200D025C9 /* AppDelegate.swift */,
-				5F7E991F23ECEE0200D025C9 /* SceneDelegate.swift */,
-				5F7E992123ECEE0200D025C9 /* ViewController.swift */,
-				5F7E992323ECEE0200D025C9 /* Main.storyboard */,
-				5F7E992623ECEE0300D025C9 /* Assets.xcassets */,
-				5F7E992823ECEE0300D025C9 /* LaunchScreen.storyboard */,
-				5F7E992B23ECEE0300D025C9 /* Info.plist */,
+				5F0C63AB23EDC4DC008AE432 /* AppDelegate.swift */,
+				5F0C63AD23EDC4DC008AE432 /* SceneDelegate.swift */,
+				5F0C63AF23EDC4DC008AE432 /* ViewController.swift */,
+				5F0C63B123EDC4DC008AE432 /* Main.storyboard */,
+				5F0C63B423EDC4DD008AE432 /* Assets.xcassets */,
+				5F0C63B623EDC4DD008AE432 /* LaunchScreen.storyboard */,
+				5F0C63B923EDC4DD008AE432 /* Info.plist */,
 			);
-			path = "HOL6-USerDefaults";
+			path = "HOL9-iRevatureMail";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F7E991923ECEE0200D025C9 /* HOL6-USerDefaults */ = {
+		5F0C63A723EDC4DC008AE432 /* HOL9-iRevatureMail */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F7E992E23ECEE0300D025C9 /* Build configuration list for PBXNativeTarget "HOL6-USerDefaults" */;
+			buildConfigurationList = 5F0C63BC23EDC4DD008AE432 /* Build configuration list for PBXNativeTarget "HOL9-iRevatureMail" */;
 			buildPhases = (
-				5F7E991623ECEE0200D025C9 /* Sources */,
-				5F7E991723ECEE0200D025C9 /* Frameworks */,
-				5F7E991823ECEE0200D025C9 /* Resources */,
+				5F0C63A423EDC4DC008AE432 /* Sources */,
+				5F0C63A523EDC4DC008AE432 /* Frameworks */,
+				5F0C63A623EDC4DC008AE432 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "HOL6-USerDefaults";
-			productName = "HOL6-USerDefaults";
-			productReference = 5F7E991A23ECEE0200D025C9 /* HOL6-UserDefaults.app */;
+			name = "HOL9-iRevatureMail";
+			productName = "HOL9-iRevatureMail";
+			productReference = 5F0C63A823EDC4DC008AE432 /* HOL9-iRevatureMail.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5F7E991223ECEE0200D025C9 /* Project object */ = {
+		5F0C63A023EDC4DC008AE432 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = revature;
 				TargetAttributes = {
-					5F7E991923ECEE0200D025C9 = {
+					5F0C63A723EDC4DC008AE432 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 5F7E991523ECEE0200D025C9 /* Build configuration list for PBXProject "HOL6-USerDefaults" */;
+			buildConfigurationList = 5F0C63A323EDC4DC008AE432 /* Build configuration list for PBXProject "HOL9-iRevatureMail" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 5F7E991123ECEE0200D025C9;
-			productRefGroup = 5F7E991B23ECEE0200D025C9 /* Products */;
+			mainGroup = 5F0C639F23EDC4DC008AE432;
+			productRefGroup = 5F0C63A923EDC4DC008AE432 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F7E991923ECEE0200D025C9 /* HOL6-USerDefaults */,
+				5F0C63A723EDC4DC008AE432 /* HOL9-iRevatureMail */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5F7E991823ECEE0200D025C9 /* Resources */ = {
+		5F0C63A623EDC4DC008AE432 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F7E992A23ECEE0300D025C9 /* LaunchScreen.storyboard in Resources */,
-				5F7E992723ECEE0300D025C9 /* Assets.xcassets in Resources */,
-				5F7E992523ECEE0200D025C9 /* Main.storyboard in Resources */,
+				5F0C63B823EDC4DD008AE432 /* LaunchScreen.storyboard in Resources */,
+				5F0C63B523EDC4DD008AE432 /* Assets.xcassets in Resources */,
+				5F0C63B323EDC4DC008AE432 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5F7E991623ECEE0200D025C9 /* Sources */ = {
+		5F0C63A423EDC4DC008AE432 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F7E992223ECEE0200D025C9 /* ViewController.swift in Sources */,
-				5F7E991E23ECEE0200D025C9 /* AppDelegate.swift in Sources */,
-				5F7E992023ECEE0200D025C9 /* SceneDelegate.swift in Sources */,
+				5F0C63B023EDC4DC008AE432 /* ViewController.swift in Sources */,
+				5F0C63AC23EDC4DC008AE432 /* AppDelegate.swift in Sources */,
+				5F0C63AE23EDC4DC008AE432 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5F7E992323ECEE0200D025C9 /* Main.storyboard */ = {
+		5F0C63B123EDC4DC008AE432 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5F7E992423ECEE0200D025C9 /* Base */,
+				5F0C63B223EDC4DC008AE432 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5F7E992823ECEE0300D025C9 /* LaunchScreen.storyboard */ = {
+		5F0C63B623EDC4DD008AE432 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5F7E992923ECEE0300D025C9 /* Base */,
+				5F0C63B723EDC4DD008AE432 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5F7E992C23ECEE0300D025C9 /* Debug */ = {
+		5F0C63BA23EDC4DD008AE432 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		5F7E992D23ECEE0300D025C9 /* Release */ = {
+		5F0C63BB23EDC4DD008AE432 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,36 +280,40 @@
 			};
 			name = Release;
 		};
-		5F7E992F23ECEE0300D025C9 /* Debug */ = {
+		5F0C63BD23EDC4DD008AE432 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HOL6-USerDefaults/Info.plist";
+				DEVELOPMENT_TEAM = 4R6WHCFACK;
+				INFOPLIST_FILE = "HOL9-iRevatureMail/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.revature.HOL6-USerDefaults";
-				PRODUCT_NAME = "HOL6-UserDefaults";
-				SWIFT_VERSION = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.revature.HOL9-iRevatureMail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5F7E993023ECEE0300D025C9 /* Release */ = {
+		5F0C63BE23EDC4DD008AE432 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "HOL6-USerDefaults/Info.plist";
+				DEVELOPMENT_TEAM = 4R6WHCFACK;
+				INFOPLIST_FILE = "HOL9-iRevatureMail/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.revature.HOL6-USerDefaults";
-				PRODUCT_NAME = "HOL6-UserDefaults";
-				SWIFT_VERSION = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.revature.HOL9-iRevatureMail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -317,25 +321,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F7E991523ECEE0200D025C9 /* Build configuration list for PBXProject "HOL6-USerDefaults" */ = {
+		5F0C63A323EDC4DC008AE432 /* Build configuration list for PBXProject "HOL9-iRevatureMail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F7E992C23ECEE0300D025C9 /* Debug */,
-				5F7E992D23ECEE0300D025C9 /* Release */,
+				5F0C63BA23EDC4DD008AE432 /* Debug */,
+				5F0C63BB23EDC4DD008AE432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F7E992E23ECEE0300D025C9 /* Build configuration list for PBXNativeTarget "HOL6-USerDefaults" */ = {
+		5F0C63BC23EDC4DD008AE432 /* Build configuration list for PBXNativeTarget "HOL9-iRevatureMail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F7E992F23ECEE0300D025C9 /* Debug */,
-				5F7E993023ECEE0300D025C9 /* Release */,
+				5F0C63BD23EDC4DD008AE432 /* Debug */,
+				5F0C63BE23EDC4DD008AE432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5F7E991223ECEE0200D025C9 /* Project object */;
+	rootObject = 5F0C63A023EDC4DC008AE432 /* Project object */;
 }
