@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5tP-vB-Nnb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Gmd-aE-K4r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -8,9 +8,24 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="6vS-fn-Ide">
+            <objects>
+                <viewController id="Gmd-aE-K4r" customClass="ViewController" customModule="HOL8_iRevature" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QaO-s5-1WB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Jxh-RX-D0Q"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QrX-Zb-bdx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-591" y="-141"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="7oa-rp-HhC">
             <objects>
-                <viewController storyboardIdentifier="page1" id="xnV-Ct-BYk" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Kyle" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xnV-Ct-BYk" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XCT-Wl-Kvj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,7 +97,7 @@
         <!--View Controller-->
         <scene sceneID="ulR-gF-rxI">
             <objects>
-                <viewController storyboardIdentifier="page4" id="zRJ-fq-YSr" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Jeremy" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zRJ-fq-YSr" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xy1-eE-VIf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,43 +106,43 @@
                                 <rect key="frame" x="20" y="64" width="374" height="778"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JeremyMalisse" translatesAutoresizingMaskIntoConstraints="NO" id="F9B-gQ-Nw3">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="371"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="ZaL-Zz-hbD">
-                                        <rect key="frame" x="0.0" y="576" width="374" height="202"/>
+                                        <rect key="frame" x="0.0" y="527" width="374" height="251"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jeremy Malisse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xOh-Hr-gWl">
-                                                <rect key="frame" x="128" y="0.0" width="118" height="9.5"/>
+                                                <rect key="frame" x="128" y="0.0" width="118" height="17.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BSc Games Development (2:1 Hons)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ad-9E-54O">
-                                                <rect key="frame" x="48.5" y="38.5" width="277.5" height="9.5"/>
+                                                <rect key="frame" x="48.5" y="46.5" width="277.5" height="17.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jmalisse1@yahoo.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnE-Z9-b1b">
-                                                <rect key="frame" x="103.5" y="77" width="167.5" height="9.5"/>
+                                                <rect key="frame" x="103.5" y="93" width="167.5" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile: +1 (407) 576-7192" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUz-Dh-Y0i">
-                                                <rect key="frame" x="85" y="115.5" width="204" height="9.5"/>
+                                                <rect key="frame" x="85" y="140" width="204" height="17.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tampa, Florida" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4GO-1x-2O9">
-                                                <rect key="frame" x="131" y="154" width="112" height="9.5"/>
+                                                <rect key="frame" x="131" y="186.5" width="112" height="18"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video games, board games, music, cats, game design" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z64-CX-Tcz">
-                                                <rect key="frame" x="30" y="192.5" width="314" height="9.5"/>
+                                                <rect key="frame" x="30" y="233.5" width="314" height="17.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -154,7 +169,7 @@
         <!--View Controller-->
         <scene sceneID="HpL-fo-JZl">
             <objects>
-                <viewController storyboardIdentifier="page5" id="h8h-Cd-AaY" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Mark" useStoryboardIdentifierAsRestorationIdentifier="YES" id="h8h-Cd-AaY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jit-Hb-1Sx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -226,7 +241,7 @@
         <!--View Controller-->
         <scene sceneID="y6u-W5-vyD">
             <objects>
-                <viewController storyboardIdentifier="page6" id="yrX-Uv-GZ9" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Wes" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yrX-Uv-GZ9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kf1-O2-4Se">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -298,7 +313,7 @@
         <!--View Controller-->
         <scene sceneID="1nR-BR-vQM">
             <objects>
-                <viewController storyboardIdentifier="page7" id="TYW-IF-ice" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Dane" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TYW-IF-ice" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JrM-X3-fNM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -370,7 +385,7 @@
         <!--View Controller-->
         <scene sceneID="VYi-uI-0Fh">
             <objects>
-                <viewController storyboardIdentifier="page2" id="MrH-dd-Wm0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Nathan" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MrH-dd-Wm0" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xnp-SN-HHi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -442,7 +457,7 @@
         <!--View Controller-->
         <scene sceneID="R8K-6w-UWv">
             <objects>
-                <viewController storyboardIdentifier="page3" id="9OG-uz-Sc4" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Kjay" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9OG-uz-Sc4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8kV-pF-k3j">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -516,7 +531,7 @@
         <!--Page View Controller-->
         <scene sceneID="nj7-le-mdB">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="5tP-vB-Nnb" customClass="PageViewController" customModule="HOL8_iRevature" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="5tP-vB-Nnb" customClass="PageViewController" customModule="HOL8_iRevature" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="FZk-Pg-4Mi"/>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Oe-N1-zvP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

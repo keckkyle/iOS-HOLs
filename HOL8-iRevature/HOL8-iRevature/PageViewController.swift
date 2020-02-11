@@ -12,13 +12,13 @@ import UIKit
 class PageViewController : UIPageViewController {
     fileprivate lazy var pages: [UIViewController] = {
         return [
-          self.getViewController(withIdentifier: "page1"),
-          self.getViewController(withIdentifier: "page2"),
-          self.getViewController(withIdentifier: "page3"),
-          self.getViewController(withIdentifier: "page4"),
-          self.getViewController(withIdentifier: "page5"),
-          self.getViewController(withIdentifier: "page6"),
-          self.getViewController(withIdentifier: "page7")
+          self.getViewController(withIdentifier: "Mark"),
+          self.getViewController(withIdentifier: "Dane"),
+          self.getViewController(withIdentifier: "Wes"),
+          self.getViewController(withIdentifier: "Nathan"),
+          self.getViewController(withIdentifier: "Kjay"),
+          self.getViewController(withIdentifier: "Kyle"),
+          self.getViewController(withIdentifier: "Jeremy")
         ]
       }()
        
